@@ -30,7 +30,9 @@ Actualmente la recepción y registro de visitas se lleva a cabo de forma manual,
 
 Los datos requeridos son:
 
+
 Fecha, Hora de Ingreso, Nombre del Visitante, Nombre del anfitrión, hora de salida y firma.
+
 
 Actualmente no se solicita algún tipo de identificación y no se otorga ningún pase o gafete de visitante debido a que las personas encargadas de éste proceso tienen otras actividades que implican moverse mucho de sus lugares y se intenta evitar problemas con el resguardo de éstos documentos.
 
@@ -51,7 +53,9 @@ Se realizaron las siguientes entrevistas y obervaciones en distintos coworking (
 - [1 Recepción de Terminal 1, Tehuantepec 170.](https://goo.gl/5S9cQv)
 
 Entrevistadora 1: Victoria 
+
 Entrevistadora 2: Rocío Estrada
+
 Fecha de Entrevista: 9 de Agosto de 2018.
 
 Ésta entrevista se realizó con Miriam Castañeda, recepcionista de Terminal 1, Tehuantepec 170.
@@ -65,10 +69,17 @@ Pudimos conocer el proceso y problemas con el registro documentados en el aparta
 - [2 3er espacio, Amsterdam 240.](https://goo.gl/xLx5Xw)
 
 Entrevistadora 1: Rocío Estrada
+
 Entrevistadora 2: Nancy
+
 Entrevistadora 3: Samantha
+
 Entrevistadora 4: Victoria
+
 Entrevistadora 5: Laura Ruíz
+
+Fecha de Entrevista: 9 de Agosto de 2018.
+
 Ésta entrevista se realizó con Karen Shirley Aldana, Gerente de Operaciones encargada de éste coworking.
 
 De la información más relevante encontramos que:
@@ -81,14 +92,23 @@ Sin embargo, mientras las bitácoras para los visitantes externos no son eficien
 
 - [Wework, Insurgentes Sur 601](https://goo.gl/CWXgkG)
 
+Fecha de Observación: 9 de Agosto de 2018.
+
 En éste coworking se llevó a cabo una visita como cliente incógito, donde además de prueba de la aplicación de registro, se observó el proceso de ingreso para los visitantes.
 
 La información más relevante encontrada es:
 
 Observación del proceso de Registro:
 
-Primero se acude al Lobby en donde hay una persona de seguridad y los visitantes tienen que registrarse en una bitácora de papel,hay que informar además a que piso y con que persona se acude. Una vez realizado dicho registro pasamos al piso 11 donde se recibe a los visitantes. Al llegar al piso 11 encontramos una barra donde se ubican los dispositivos para llevar a cabo el registro,son dos tablets donde hay que ingresar información básica como se muestra en el [video.](https://goo.gl/CWXgkG) 
-Nombre, a quién visitas y se hace la toma de una fotografía.
+Primero se acude al Lobby en donde hay una persona de seguridad y los visitantes tienen que registrarse en una bitácora de papel,hay que informar además a que piso y con que persona se acude. Una vez realizado dicho registro pasamos al piso 11 donde se recibe a los visitantes. Al llegar al piso 11 encontramos una barra donde se ubican los dispositivos para llevar a cabo el registro,son dos tablets donde hay que ingresar información básica como se muestra en el [video.](https://goo.gl/CWXgkG):
+
+1.-Nombre
+
+2.-Apellido
+
+3.-A quién visitas
+
+4.-Toma de una fotografía.
 
 Como vemos es éstos espacios además de un registro manual se lleva a cabo el registro en tablet, el segundo es el que avisa al anfitrión de nuestra llegada.
 
@@ -99,6 +119,8 @@ Durante la observación pudimos notar que algunos visitantes no se sentían cóm
 
 Entrevistadora: Rocío Estrada
 
+Fecha de Entrevista: 9 de Agosto de 2018.
+
 La observación en Wework, coincidió con la llegada de una visitante que tuvo problemas en su registro, tardo un poco más del tiempo usual y al terminar se veía desconcertada, no acudió al área de espera donde puediera sentarse sino que permaneció al lado del dispositivo algo nerviosa.
 
 La información obtenida en la entrevista fue:
@@ -107,7 +129,7 @@ Adriana de 42 años, acudió a una entrevista de trabajo; al realizar el registr
 
 # Benchmark
 
-Continuando con la invetigación se realizó un comparativo de lo métodos de registro de los coworking visitados.
+Continuando con la investigación, se realizó un comparativo de lo métodos de registro de los coworking visitados.
 
 ![benchmark 1](https://github.com/MirEnovi/Registro-de-Visitantes/blob/master/src/assets/img/benchmark.jpg?raw=true)
 
@@ -117,34 +139,44 @@ Se encontró que únicamente Wework cuenta con ingreso por medio de un dispositi
 
 - Visitante: 
 
-Molestia y ansiedad: Al esperar en fila para poder llevar a cabo el registro. 
+Molestia y ansiedad: Al esperar en fila para poder llevar a cabo el registro.
+
 Enojo: Si la fila es larga y los otros visitantes tienen complicaciones en registrarse.
 
 - Anfitrión: 
 
 Frustración: Al tener que estar al pendiente o cerca de su teléfono para recibir los avisos en tiempo y forma. 
+
 Incomodidad: Al tener que avisar constantemente a alguien a donde va para que pueda ser fácilmente contactado en caso de una visita.
 
 - Recepción:
 
 Miedo: De tener problemas con los visitantes.
-Frustración: Al no poder agilizar lo registros
+
+Frustración: Al no poder agilizar lo registros.
 
 - Administración
 
 Miedo: A que los contratiempos con el registro afecten la imagen y rentabilidad del negocio.
+
 Frustración: Al no tener una data sobre visitantes e invitados que pueda ser fácilmente manipulable y donde la información requerida se obtenga rápidamente y pueda ser traducida en la toma de decisiones para mejorar el servicio.
 
 
 # Historias de Usuario
 
+Administrador:
+
 "Yo como administrador quiero contar con el nombre de los visitantes, motivo de su visita, hora de entrada y a quién visitó para poder acceder a esa información en caso de requerirla"
 
 "Yo como administrador quiero poder filtrar la información de mis visitantes para agilizar la búsqueda de información."
 
+Anfitrión:
+
 "Yo como anfitrión quiero contar con avisos oportunos sobre mis visitantes para cumplir con mi citas a tiempo y no dejar esperando a mis visitantes"
 
 "Yo como anfitrión quiero poder recibir alertas en mi celular sobre mis visitas de modo que al moverme de mi lugar no pierda mis avisos de visitantes y los pueda atender oportunamente.
+
+Visitante:
 
 "Yo como visitante del coworking quiero realizar registros ágiles de mi ingreso a las instalaciones para no tener complicaciones o perder mucho tiempo antes de mi reunión"
 
@@ -152,7 +184,7 @@ Frustración: Al no tener una data sobre visitantes e invitados que pueda ser f�
 
 # Argumentación del proyecto (negocio y usuario)
 
-La aplicación que se propone agiliza la entrada de visitantes sin olvidar proporcionarles un medio de contacto directo con recepción en caso de problemas con el registro.--(Adjuntar imágenes)
+La aplicación que se propone agiliza la entrada de visitantes sin olvidar proporcionarles un medio de contacto directo con recepción en caso de problemas con el registro.
 
 Muestra una interfaz sencilla y amigable que solicita y devuelve la información básica más indispensable para nuestros 3 usuarios.
 
@@ -163,30 +195,37 @@ Se plantea el uso de una sola plataforma que sea responsive lo que reduce el cos
 # Necesidades de Usuarios 
 
 Visitantes:
+
 Agilidad en el registro.
+
 Apoyo del personal en caso de problemas con el registro.
+
 Certeza de que su anuncio de visita ha sido enviado a su anfitrión.
 
 Anfitrión:
+
 Recepción oportuna de avisos de visita en sus distintos dispositivos
 
 Administrador:
+
 Contar con una data actualizada y fácilmente manipulable.
-
-
-2. Lo que los usuarios esperan obtener:
-
 
 # Prototipado
 
 Durante la primera etapa de desarrollo se tomó en cuenta principalmente al visitante, y se realizaron los siguientes sketchs de baja fidelidad, diagramas de flujo y el primer prototipo clickable.
 
---Diagrama de Flujo----
+Diagrama de Flujo
 ![diagrama 1](https://github.com/MirEnovi/Registro-de-Visitantes/blob/master/src/assets/img/diagrama.jpg?raw=true)
+
 [Sketch de baja fidelidad](https://goo.gl/7TfrNy)
+
 [Prototipo clickeable de alta fidelidad](https://marvelapp.com/5ei6a07/screen/46634932)
 
-En este primer prototipo se realizó un testeo del producto que arrojó que abría que hacer cambios a la interfaz. En ésto primeros prototipo solo se tomo en cuenta al usuario "visitante", sin embargo luego de recibir feedback en la presentación de avance se inició el proceso del prototipo ideal obteniendo un ["Segundo prototipo"](https://goo.gl/eB8M8J), en éste prototipo se realizó un cambio total de la interfaz y se agregó a los usuarios "Anfitrión" que es la persona que recibe visitas e invitados y al "Admin" el administrador que puede ser personal administrativo del coworking con permiso para utilizar el sistema.
+En este primer prototipo se realizó un testeo del producto que arrojó que había que hacer cambios a la interfaz. 
+
+En éstos primeros prototipos solo se tomó en cuenta al usuario "visitante", sin embargo luego de recibir feedback en la presentación de avance se inició el proceso del prototipo ideal.
+
+ Se realizó un ["Segundo prototipo"](https://goo.gl/eB8M8J), en éste prototipo se realizó un cambio total de la interfaz y se agregó a los usuarios "Anfitrión" que es la persona que recibe visitas e invitados y al "Admin" el administrador que puede ser personal administrativo del coworking con permiso para utilizar el sistema.
 
 Los [test](https://goo.gl/eyt39K) del segundo prototipo mostraron una mejora en la experiencia de navegación, sin embargo la parte de solicitar apoyo de administración resultaba confusa. Además se pudo recibir feedback de Paulina Pimentel, quién cuestionó la pertinencia de algunos elementos como las flechas y la falta de autenticación en los inputs.
 
@@ -198,13 +237,16 @@ Al finalizar las pruebas a éste prototipo se encontró que a algunos usuarios n
 
 # Próximo Desarrollo:
 
-En el área de Admin agregar el acceso o directamente las fotografías de cada visitante, así como la posibilidad de tomar las fotografías de visitantes desde éste perfil.
+En el perfil de Admin agregar el acceso o directamente las fotografías de cada visitante, así como la posibilidad de tomar las fotografías de visitantes desde éste perfil.
 
-Diseñar y testear las pantallas de notificación para el anfitrión que deben permitir enviar una confirmación y opcionalmente un mensaje al visitante.
+Diseñar y testear las pantallas de notificación para el anfitrión que deben permitir enviar una confirmación de recibido y opcionalmente un mensaje al visitante.
+
+Para el perfil de Anfitrión podría ingresarse una agenda de citas que envíe un código al visitante y que le permita acceder únicamente con ese código.
 
 # User testing
 
 En éste momento del [desarrollo](https://mirenovi.github.io/Registro-de-Visitantes/src/index.html) contamos con el flujo ideal implementado en un 70% tomando como referencia el prototipo ideal.
+
 La interfaz continúa en desarrollo y ya se puede apreciar la implementación del prototipo.
 
 Durante el [testeo](https://goo.gl/j4mdJQ) del producto desarrollado, encontramos área de oportunidad principalmente en la interfaz, acomodo de botones en la pantalla de la cámara, así como lograr el autocompletado en el filtro de Anfitriones.
@@ -238,4 +280,5 @@ Para los usuarios "admin" y "anfitrión" hay que ingresar en menú, seleccionar 
 - Mirian Ivonne García Hernández, Desarrolladora Front-End
 - Diana Cristal Leyva Ramírez, Desarrolladora Front-End
 - Rocío Estrada, User Experience (UX)
+
 

@@ -32,8 +32,8 @@
     </header>
 
     <div class="row">
-      <div class="offset-lg-1 offset-xl-2 img-fluid mx-auto d-block " alt="Responsive image">
-        <img src="assets/img/ter.jpg">
+      <div class="offset-lg-1 offset-xl-2 mx-auto d-block ">
+        <img class = "img-fluid" src="assets/img/ter.jpg" alt="Responsive image">
       </div>
     </div>
     <div class="row">
@@ -58,7 +58,7 @@
 
     <div id="modal">
       <!--modal-->
-      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+      <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-hidden="true">
         <div class="modal-dialog modal-lg">
           <div class="modal-content">
             <div class="modal-header">
@@ -69,10 +69,10 @@
             </div>
             <div class="modal-body">
               <label>Email</label>
-              <input type="email" id="email-admin" class="form-control" placeholder="mail" v-model="subject">
+              <input type="email" id="email-admin" class="form-control" placeholder="mail">
               <br>
               <label>Contraseña</label>
-              <input type="password" id="password-admin" class="form-control" placeholder="password" v-model="subject">
+              <input type="password" id="password-admin" class="form-control" placeholder="password" >
             </div>
             <div class="modal-footer">
               <button type="button" class="btn btn-outline-dark" data-dismiss="modal">Salir</button>

@@ -20,7 +20,6 @@ const save = document.getElementById('save');
 const userVisit = () => {
   let date = new Date();
   let userDate = `${date.getDate()}-${date.getMonth() + 1}-${date.getFullYear()}-${date.getHours()}:${date.getMinutes()}:${date.getSeconds()}`;
-  // 
 
   let mail = email.value;
   let nameV = name.value;
@@ -62,7 +61,7 @@ comeback.addEventListener('click', event => location.href = '../index.html');
 const endRegister = () => {
   swal({
       title: '¡Anotado!',
-      text: 'Se enviara un email a tu anfitrion para avisar de tu llegada espera en recepción',
+      text: 'Se enviará un email a tu anfitrión para avisar de tu llegada, espera en recepción.',
       icon: 'success',
       buttons: true,
     })

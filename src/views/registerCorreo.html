@@ -36,13 +36,13 @@
           <label class="text font-weight-bold">
             ¿Cuál es tu Nombre?:
           </label>
-          <input id="name" class="form-control" placeholder="Nombre" type="text" v-model="from_name">
+          <input id="name" class="form-control" placeholder="Nombre" type="text">
         </div>
         <div class="col-sm-10 col-lg-5 offset-sm-1 offset-lg-0 form-group">
           <label class="text font-weight-bold">
             ¿Cuál es tu Apellido?:
           </label>
-          <input id="secondName" class="form-control" placeholder="Apellido" type="text" v-model="from_name">
+          <input id="secondName" class="form-control" placeholder="Apellido" type="text">
         </div>
       </div>
       <div class="row">
@@ -50,27 +50,27 @@
           <label class="text font-weight-bold">
             ¿Cuál es tu Correo Electrónico?:
           </label>
-          <input id="email" class="form-control" placeholder="email" type="email" v-model="from_email">
+          <input id="email" class="form-control" placeholder="email" type="email">
         </div>
         <div class="col-sm-10 col-lg-5 offset-sm-1 offset-lg-0 form-group">
           <label class="text font-weight-bold">
             ¿Motivo de su visita?:
           </label>
-          <input id="subject" class="form-control" placeholder="Asunto" type="text" v-model="subject">
+          <input id="subject" class="form-control" placeholder="Asunto" type="text" >
         </div>
       </div>
     </section>
 
     <!--Ingreso de la fotografia-->
     <section class="row margen" id="section-photo" style="display: none;">
-      <button class="col-4 offset-4 btn btn-dark btn-lg" id="camera">Inicir Cámara</button>
+      <button class="col-4 offset-4 btn btn-dark btn-lg" id="camera">Iniciar Cámara</button>
       <button class="col-4 offset-4 btn btn-dark btn-lg" id="save" style="display: none;">Salvar Foto</button>
       <button class="col-4 offset-4 btn btn-dark btn-lg" id="capture">Capturar Foto</button>
       <div id="photo" class="offset- offset-lg-4 col-lg-4" style="display: none">
         <canvas id="snapshot" width="420" height="300"></canvas>
       </div>
       <div id="contentPhoto" class="col-sm-12 col-lg-8 offset-lg-2">
-        <video id="player" class="offset-lg-1 offset-xl-2 img-fluid mx-auto d-block " alt="Responsive image" controls autoplay></video>
+        <video id="player" class="offset-lg-1 offset-xl-2 img-fluid mx-auto d-block " controls autoplay></video>
       </div>
     </section>
 
@@ -82,7 +82,7 @@
             ¿A quién visitas?:
           </label>
           <!-- Input para filtrar  -->
-          <form id="search-form " class="col s11 offset-s1">
+          <form id="search-form" class="col s11 offset-s1">
             <div class="input-field col s12">
               <input id="search" type="search" placeholder="Anfitrion" class="form-control">
             </div>
